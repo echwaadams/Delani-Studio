@@ -162,3 +162,26 @@ figcaption
 {
     margin-top: 20px;
 }
+
+/* PORTFOLIO PAGE */
+.port1
+{
+    float: right;
+    position: relative;
+    margin: 5px;
+}
+.port1 .potext
+{
+    display: none;
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.6);
+    width: auto;
+    position: absolute;
+    bottom: 0;
+    color: deepskyblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 30px;
+    height: 100%;
+}
