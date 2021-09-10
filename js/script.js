@@ -26,4 +26,10 @@ $(document).ready(function(){
          $('#p3').toggle('slow')
          $('#img3').slideUp();
      });
+
+    //  hovering effect on the portfolio images
+    $('.port1').hover(function() {
+        $('.potext',this).slideToggle(3000);
+    });
+
 });
