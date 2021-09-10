@@ -49,17 +49,16 @@ body
     color: white;
     letter-spacing: 2px;
 }
-/* mouse button scroll 
-.scroll-down
-/* {
+/* mouse button scroll */
+/* .scroll-down
+ {
     position: relative;
     top: 50px;
     bottom: 5rem;
-    /* left: 50px; */
-    /* transform: translateX(-50%); */
-
-/*
-.mouse
+    /* left: 50px; 
+    transform: translateX(-50%);
+} */
+/* .mouse
 {
 width: 1.5rem;
 height: 3rem;
@@ -75,7 +74,7 @@ background-color: #fff;
 display: block;
 border-radius: 50%;
 margin: auto;
-}  */
+}  */ */
 
 /* ABOUT PAGE */
 .aboutus
@@ -191,4 +190,28 @@ figcaption
     justify-content: center;
     align-items: center;
     
+}
+
+/* CONTACT PAGE */
+.contacts
+{
+    background: url(images/images/c_image.jpg);
+}
+input[type=text]
+{
+    background: none;
+    color: white;
+    border: 2px solid white;
+}
+input[type=email]
+{
+    background: none;
+    color: white;
+    border: 2px solid white;
+}
+#message
+{
+    background: none;
+    color: white;
+    border: 2px solid white;
 }
