@@ -3,7 +3,13 @@
 {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
     font-family: 'Poppins' ,sans-serif;
+}
+body
+{
+    width: 100%;
+    min-height: 200vh;
 }
 
 .jumbotron-fluid
@@ -51,7 +57,6 @@
     bottom: 5rem;
     left: 50%;
     transform: translateX(-50%);
-    display: flex;
 }
 .mouse
 {
@@ -60,7 +65,6 @@ height: 3rem;
 border: 2px solid white;
 margin-bottom: 2rem;
 border-radius: 2rem;
-display: flex;
 }
 .mouse span
 {
@@ -79,8 +83,7 @@ margin: auto;
     min-height: 30vh;
     background: #fff;
     position: relative;
-    top: 400px;
-    margin-bottom: 20px;
+    top: 520px;
     color: #000;
     text-decoration: none;
 }
@@ -88,7 +91,6 @@ margin: auto;
 {
     position: relative;
     justify-content: center;
-    padding: 40px;
     align-items: center;
     text-align: center;
     text-transform: uppercase;
@@ -99,11 +101,43 @@ margin: auto;
 {
     letter-spacing: 2px;
     /* line-height: 40px; */
-    margin: 20px;
     box-sizing: content-box;
     justify-content: start;
     text-align: center;
     text-transform: initial;
-    margin-bottom: 20px;
     text-decoration: none;
+}
+
+/* SERVICES PAGE */
+/* service page styling */
+.services
+{
+    background-image: url('images/images/s_image.jpg');
+    min-height: 40vh;
+    width: 100%;
+    position: relative;
+    top: 600px;
+    color: #fff;
+    opacity: 0.8;
+}
+.services h1
+{
+    font-size: 2.5em;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.services p
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* letter-spacing: 2px; */
+    margin-right: 40px;
+    line-height: normal;
+
 }
