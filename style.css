@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins' ,sans-serif;
+}
+
+.jumbotron-fluid
+{
+    background-image: url("images/images/h_img.jpg");
+
+}
+.hero
+{
+    min-height: 100vh;
+    top: 250px;
+    position: relative;
+}
+.logo
+{
+    margin-bottom: 20px;
+}
+.hero h2
+{
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+}
+.hero h2 span
+{
+    margin-top: 10px;
+}
+.hero p
+{
+    font-weight: 700;
+    font-size: 1em;
+    color: white;
+    letter-spacing: 2px;
+}
