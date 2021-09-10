@@ -52,11 +52,11 @@ body
 /* mouse button scroll */
 .scroll-down
 {
-    position: absolute;
-    top: 290px;
+    position: relative;
+    top: 50px;
     bottom: 5rem;
-    left: 50%;
-    transform: translateX(-50%);
+    /* left: 50px; */
+    /* transform: translateX(-50%); */
 }
 .mouse
 {
@@ -74,7 +74,7 @@ background-color: #fff;
 display: block;
 border-radius: 50%;
 margin: auto;
-}
+} 
 
 /* ABOUT PAGE */
 .aboutus
@@ -82,8 +82,9 @@ margin: auto;
     width: 100%;
     min-height: 30vh;
     background: #fff;
+    opacity: 1;
     position: relative;
-    top: 520px;
+    top: 80px;
     color: #000;
     text-decoration: none;
 }
@@ -113,10 +114,10 @@ margin: auto;
 .services
 {
     background-image: url('images/images/s_image.jpg');
-    min-height: 40vh;
+    min-height: 50vh;
     width: 100%;
     position: relative;
-    top: 600px;
+    top: 160px;
     color: #fff;
     opacity: 0.8;
 }
@@ -129,6 +130,7 @@ margin: auto;
     text-align: center;
     font-weight: 700;
     padding: 10px;
+    top: 80px;
     margin-bottom: 20px;
 }
 .services p
@@ -140,4 +142,22 @@ margin: auto;
     margin-right: 40px;
     line-height: normal;
 
+}
+/* WHAT WE DO PAGE */
+.whatwedo
+{
+    position: relative;
+    top: 150px;
+    width: 100%;
+    min-height: 50vh;
+    color: #000;
+    background: #fff;
+}
+.whatwedo h1 
+{
+    margin-top: 30px;
+}
+figcaption
+{
+    margin-top: 20px;
 }
