@@ -195,7 +195,7 @@ figcaption
 /* CONTACT PAGE */
 .contacts
 {
-    background: url(images/images/c_image.jpg);
+    background: url("images/images/c_image.jpg");
 }
 input[type=text]
 {
