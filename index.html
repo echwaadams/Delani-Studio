@@ -162,8 +162,29 @@
 
         <!-- CONTACT PAGE -->
         <div class="contacts">
+            <br><br><br>
             <div class="contact-overlay">
-                <h1 class="text-center text-white b-text">CONTACT US</h1>
+                <h1 class="text-center text-white b-text">CONTACT US</h1><br>
+                <div class="col-md-12 input">
+                    <form id="contcat" >
+                        <div class="row">
+                            <div class="col-md-2 form"></div>
+                             <input type="text" class="col-md-4 form-contact name" id="name" name="name" 
+                             placeholder="Name.." required> <br><br>
+                             <input type="text" class="col-md-4 form-contact email" id="email" name="email" 
+                              placeholder="Email.." required> 
+                             <div class="col-md-2"></div>
+                        </div>
+                        <div class="row input">
+                            <div class="col-md-2"></div>
+                            <textarea name="message" id="message" rows="12" class="form-control col-mod-8 text"
+                            placeholder="Your Message..."></textarea>
+                            <div class="col-md-2"></div>
+                        </div>
+                        <br>
+                        <button class="btn btn-success mx-auto d-block submit" id="ok" type="submit">Submit</button>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
