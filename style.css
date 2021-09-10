@@ -9,8 +9,11 @@
 .jumbotron-fluid
 {
     background-image: url("images/images/h_img.jpg");
+    background-size: contain;
 
 }
+
+/* HERO SECTION */
 .hero
 {
     min-height: 100vh;
@@ -38,4 +41,32 @@
     font-size: 1em;
     color: white;
     letter-spacing: 2px;
+}
+/* mouse button scroll */
+.scroll-down
+{
+    position: absolute;
+    top: 290px;
+    bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.mouse
+{
+width: 1.5rem;
+height: 3rem;
+border: 2px solid white;
+margin-bottom: 2rem;
+border-radius: 2rem;
+display: flex;
+}
+.mouse span
+{
+width: .5rem;
+height: .5rem;
+background-color: #fff;
+display: block;
+border-radius: 50%;
+margin: auto;
 }
