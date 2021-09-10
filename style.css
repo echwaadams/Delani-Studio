@@ -49,15 +49,16 @@ body
     color: white;
     letter-spacing: 2px;
 }
-/* mouse button scroll */
+/* mouse button scroll 
 .scroll-down
-{
+/* {
     position: relative;
     top: 50px;
     bottom: 5rem;
     /* left: 50px; */
     /* transform: translateX(-50%); */
-}
+
+/*
 .mouse
 {
 width: 1.5rem;
@@ -74,7 +75,7 @@ background-color: #fff;
 display: block;
 border-radius: 50%;
 margin: auto;
-} 
+}  */
 
 /* ABOUT PAGE */
 .aboutus
