@@ -1,4 +1,12 @@
 $(document).ready(function(){
+
+    //  styling the head to bold
+    $('h1').css('font-weight','bold');
+
+    // styling figcaption to bold
+    $('#devtext').css('font-weight','bold');
+    $('#protext').css('font-weight','bold');
+    $('#destxt').css('font-weight','bold');
      // hiding the paragraphs
      $('#p1').hide();
      $('#p2').hide();
