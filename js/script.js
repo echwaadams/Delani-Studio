@@ -7,6 +7,15 @@ $(document).ready(function(){
     $('#devtext').css('font-weight','bold');
     $('#protext').css('font-weight','bold');
     $('#destxt').css('font-weight','bold');
+
+    // styling what we do paragraphs bold
+    $('#p1').css('font-weight','bold');
+    $('#p2').css('font-weight','bold');
+    $('#p3').css('font-weight','bold');
+
+    // styling footer to bold
+    $('footer').css('font-weight','bold')
+
      // hiding the paragraphs
      $('#p1').hide();
      $('#p2').hide();
