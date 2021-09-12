@@ -172,9 +172,11 @@ figcaption
 /* PORTFOLIO PAGE */
 .port1
 {
-    float: right;
+    float: left;
     position: relative;
     margin: 5px;
+    justify-content: center;
+    align-items: center;
 }
 .port1 .potext
 {
